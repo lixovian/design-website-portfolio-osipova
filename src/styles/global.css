@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "./fonts.css";
+@import "./colors.css";
+
+@theme {
+    --text-xs: 20px;
+    --text-sm: 22px;
+    --text-base: 24px;
+    --text-lg: 28px;
+    --text-xl: 32px;
+    --text-2xl: 36px;
+}

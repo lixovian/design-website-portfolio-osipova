@@ -5,8 +5,14 @@
 @theme {
     --text-xs: 20px;
     --text-sm: 22px;
-    --text-base: 24px;
+    --text-md: 24px;
     --text-lg: 28px;
     --text-xl: 32px;
     --text-2xl: 36px;
+}
+
+body {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.15;
 }

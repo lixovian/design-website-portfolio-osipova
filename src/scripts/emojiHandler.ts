@@ -1,4 +1,4 @@
-import emojis from '../assets/emojis/emoji.json'
+import emojis from '../assets/emojis/emojis.json'
 
 export type EmojiId = keyof typeof emojis
 

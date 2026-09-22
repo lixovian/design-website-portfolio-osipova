@@ -1,31 +1,21 @@
 import { useTranslation } from 'react-i18next'
 import { ButtonSwitch } from './ButtonSwitch'
+import { supportedLanguages } from '../../i18n/config.ts'
+import { languageHandler } from '../../scripts/languageHandler.ts'
 
 export function LanguageSwitch() {
-    const { i18n } = useTranslation()
+    const { t, i18n } = useTranslation('common')
 
-    const languages = [
-        {
-            id: 'de',
-            label: 'de',
-            action: () => void i18n.changeLanguage('de'),
-        },
-        {
-            id: 'en',
-            label: 'en',
-            action: () => void i18n.changeLanguage('en'),
-        },
-        {
-            id: 'ru',
-            label: 'ru',
-            action: () => void i18n.changeLanguage('ru'),
-        },
-    ]
+    const languages = supportedLanguages.map((language) => ({
+        id: language,
+        label: t(`languages.${language}`),
+        action: () => languageHandler(language),
+    }))
 
     return (
         <ButtonSwitch
             items={languages}
-            activeId={i18n.resolvedLanguage}
+            activeId={i18n.resolvedLanguage?.split('-')[0]}
         />
     )
 }

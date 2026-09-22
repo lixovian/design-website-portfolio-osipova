@@ -6,7 +6,7 @@ type LinkListProps = {
 
 export function LinkList({items}: LinkListProps) {
     return (
-        <nav className="flex flex-col gap-0 items-start">
+        <nav className="flex flex-col items-start leading-none">
             {items.map((item) => (
                 <LinkButton key={item.to} to={item.to} label={item.label}/>
             ))}

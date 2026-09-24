@@ -34,6 +34,14 @@ import ruInstallations from './locales/ru/projects/installations.json'
 import ruTheatre from './locales/ru/projects/theatre.json'
 import ruPrint from './locales/ru/projects/print.json'
 import ruBurn from './locales/ru/projects/objects/burn.json'
+import ruAtMyHome from './locales/ru/projects/print/at_my_home.json'
+import ruFish from './locales/ru/projects/theatre/fish.json'
+import ruIndigestionOfReality from './locales/ru/projects/theatre/indigestion_of_reality.json'
+import ruNewAngels from './locales/ru/projects/objects/new_angels.json'
+import ruUndisclosed from './locales/ru/projects/objects/undisclosed.json'
+import ruWindows from './locales/ru/projects/objects/windows.json'
+import ruTattooedAnimals from './locales/ru/projects/objects/tattooed_animals.json'
+import ruDichoPb from './locales/ru/projects/objects/dicho_pb.json'
 
 export const supportedLanguages = ['de', 'en', 'ru'] as const
 export type Language = (typeof supportedLanguages)[number]
@@ -85,6 +93,14 @@ void i18n
                 theatre: ruTheatre,
                 print: ruPrint,
                 burn: ruBurn,
+                at_my_home: ruAtMyHome,
+                fish: ruFish,
+                indigestion_of_reality: ruIndigestionOfReality,
+                new_angels: ruNewAngels,
+                undisclosed: ruUndisclosed,
+                windows: ruWindows,
+                tattooed_animals: ruTattooedAnimals,
+                dicho_pb: ruDichoPb,
             },
         },
         lng: initialLanguage,

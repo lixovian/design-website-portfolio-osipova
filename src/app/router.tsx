@@ -14,6 +14,14 @@ import {InstallationsPage} from "../pages/projects/InstallationsPage.tsx";
 import {TheatrePage} from "../pages/projects/TheatrePage.tsx";
 import {PrintPage} from "../pages/projects/PrintPage.tsx";
 import {BurnPage} from "../pages/projects/objects/BurnPage.tsx";
+import {AtMyHomePage} from "../pages/projects/print/AtMyHomePage.tsx";
+import {FishPage} from "../pages/projects/theatre/FishPage.tsx";
+import {IndigestionOfRealityPage} from "../pages/projects/theatre/IndigestionOfRealityPage.tsx";
+import {NewAngelsPage} from "../pages/projects/objects/NewAngelsPage.tsx";
+import {UndisclosedPage} from "../pages/projects/objects/UndisclosedPage.tsx";
+import {WindowsPage} from "../pages/projects/objects/WindowsPage.tsx";
+import {TattoedAnimalsPage} from "../pages/projects/objects/TattoedAnimalsPage.tsx";
+import {DichoPbPage} from "../pages/projects/objects/DichoPbPage.tsx";
 
 export const router = createBrowserRouter([
     {
@@ -124,6 +132,94 @@ export const router = createBrowserRouter([
                 handle: {
                     header: {
                         namespace: 'burn',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/objects/new_angels',
+                element: <NewAngelsPage />,
+                handle: {
+                    header: {
+                        namespace: 'new_angels',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/objects/undisclosed',
+                element: <UndisclosedPage />,
+                handle: {
+                    header: {
+                        namespace: 'undisclosed',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/objects/windows',
+                element: <WindowsPage />,
+                handle: {
+                    header: {
+                        namespace: 'windows',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/objects/tattoed_animals',
+                element: <TattoedAnimalsPage />,
+                handle: {
+                    header: {
+                        namespace: 'tattooed_animals',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/objects/dicho_pb',
+                element: <DichoPbPage />,
+                handle: {
+                    header: {
+                        namespace: 'dicho_pb',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/print/at_my_home',
+                element: <AtMyHomePage />,
+                handle: {
+                    header: {
+                        namespace: 'at_my_home',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/theatre/fish',
+                element: <FishPage />,
+                handle: {
+                    header: {
+                        namespace: 'fish',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/theatre/indigestion_of_reality',
+                element: <IndigestionOfRealityPage />,
+                handle: {
+                    header: {
+                        namespace: 'indigestion_of_reality',
                         titleKey: 'header.title',
                         emoji: 'flying',
                     },

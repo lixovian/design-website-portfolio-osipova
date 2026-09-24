@@ -13,6 +13,14 @@ export const pageNamespaces = [
     'theatre',
     'print',
     'burn',
+    'at_my_home',
+    'fish',
+    'indigestion_of_reality',
+    'new_angels',
+    'undisclosed',
+    'windows',
+    'tattooed_animals',
+    'dicho_pb',
 ] as const
 
 export type PageNamespace = (typeof pageNamespaces)[number]

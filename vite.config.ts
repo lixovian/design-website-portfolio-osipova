@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     allowedHosts: [
-      'tfib5p-89-125-227-2.ru.tuna.am',
+      '12fad8-89-125-227-2.ru.tuna.am',
     ],
   },
 })

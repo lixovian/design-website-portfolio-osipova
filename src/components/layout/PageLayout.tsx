@@ -26,7 +26,7 @@ export function PageLayout() {
 
     return (
         <div className="relative min-h-svh overflow-hidden">
-            <div className="container relative isolate mx-auto flex min-h-svh flex-col px-4 pb-6 pt-6 sm:px-8 sm:pt-8 lg:px-16 lg:pb-8 lg:pt-16">
+            <div className="relative isolate flex min-h-svh w-full flex-col px-16 pb-8 pt-16">
                 {activeHandle?.header && (
                     <Header
                         title={pageTitle ?? ''}

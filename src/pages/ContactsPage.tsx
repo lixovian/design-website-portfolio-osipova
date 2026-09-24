@@ -1,5 +1,5 @@
 import TextFull from "../components/text/TextFull.tsx";
-import {LinkButton} from "../components/buttons/LinkButton.tsx";
+import {BackButton} from "../components/buttons/BackButton.tsx";
 import {useTranslation} from "react-i18next";
 import LineCopy from "../components/text/LineCopy.tsx";
 
@@ -15,7 +15,7 @@ export function ContactsPage() {
             <p>{t('phone')}: <LineCopy copyingText="+79269468924" label="+7 926 946 89 24" className="underline"/> (whatsapp)</p>
         </TextFull>
 
-            <LinkButton label={t('common:buttons.back')} to="/" className="mt-auto"/>
+            <BackButton label={t('common:buttons.back')} className="mt-auto"/>
         </span>
     )
 }

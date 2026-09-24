@@ -1,4 +1,4 @@
-import {LinkButton} from "../../components/buttons/LinkButton.tsx";
+import {BackButton} from "../../components/buttons/BackButton.tsx";
 import {useTranslation} from "react-i18next";
 import {TextLeft} from "../../components/text/TextLeft.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
@@ -29,8 +29,7 @@ export function ObjectsPage() {
 
             <LinkImageGrid items={objects}/>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />

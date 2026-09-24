@@ -1,5 +1,5 @@
 import {useTranslation} from "react-i18next";
-import {LinkButton} from "../../../components/buttons/LinkButton.tsx";
+import {BackButton} from "../../../components/buttons/BackButton.tsx";
 import {
     ProjectImageGallery,
     type ProjectImageItem,
@@ -46,8 +46,7 @@ export function BurnPage() {
 
             <ProjectImageGallery images={images}/>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />

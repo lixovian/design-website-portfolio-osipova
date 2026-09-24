@@ -1,4 +1,4 @@
-import {LinkButton} from "../components/buttons/LinkButton.tsx";
+import {BackButton} from "../components/buttons/BackButton.tsx";
 import {useTranslation} from "react-i18next";
 import {ConnectedLine} from "../components/text/ConnectedLine.tsx";
 
@@ -61,7 +61,7 @@ export function StatementPage() {
                 </div>
             </div>
 
-            <LinkButton label={t('common:buttons.back')} to="/" className="mt-auto"/>
+            <BackButton label={t('common:buttons.back')} className="mt-auto"/>
         </span>
     )
 }

@@ -1,5 +1,5 @@
 import {useTranslation} from "react-i18next";
-import {LinkButton} from "../../components/buttons/LinkButton.tsx";
+import {BackButton} from "../../components/buttons/BackButton.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
 import {LinkImageGrid} from "../../components/buttons/LinkImageGrid.tsx";
 import {TextLeft} from "../../components/text/TextLeft.tsx";
@@ -25,8 +25,7 @@ export function TheatrePage() {
 
             <LinkImageGrid items={performances} align="start"/>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />

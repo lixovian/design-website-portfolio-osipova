@@ -1,5 +1,5 @@
 import {useTranslation} from "react-i18next";
-import {LinkButton} from "../../components/buttons/LinkButton.tsx";
+import {BackButton} from "../../components/buttons/BackButton.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
 import {LinkImageGrid} from "../../components/buttons/LinkImageGrid.tsx";
 import coverL63 from "../../assets/images/projects/installations/cover_l_63.png";
@@ -16,8 +16,7 @@ export function InstallationsPage() {
         <span className="flex flex-1 flex-col gap-16">
             <LinkImageGrid items={installations} size="large"/>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />

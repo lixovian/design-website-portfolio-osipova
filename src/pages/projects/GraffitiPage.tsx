@@ -1,5 +1,5 @@
 import {useTranslation} from "react-i18next";
-import {LinkButton} from "../../components/buttons/LinkButton.tsx";
+import {BackButton} from "../../components/buttons/BackButton.tsx";
 import {TextLeft} from "../../components/text/TextLeft.tsx";
 import {ImageGrid} from "../../components/images/ImageGrid.tsx";
 import image_1 from "../../assets/images/projects/graffiti/1_grid.png";
@@ -71,8 +71,7 @@ export function GraffitiPage() {
 
             <ImageGrid images={images}/>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />

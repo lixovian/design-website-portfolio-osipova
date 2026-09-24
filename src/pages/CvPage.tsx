@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { TextLeft } from '../components/text/TextLeft.tsx'
-import {LinkButton} from "../components/buttons/LinkButton.tsx";
+import {BackButton} from "../components/buttons/BackButton.tsx";
 
 export function CvPage() {
     const {t} = useTranslation(['cv', 'common'])
@@ -17,8 +17,7 @@ export function CvPage() {
 
             <p className="whitespace-pre-line">{t('education')}</p>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 label={t('common:buttons.back')}
             />
         </TextLeft>

@@ -1,6 +1,6 @@
 import {useTranslation} from "react-i18next";
 import TextFull from "../components/text/TextFull.tsx";
-import {LinkButton} from "../components/buttons/LinkButton.tsx";
+import {BackButton} from "../components/buttons/BackButton.tsx";
 
 export function CollaborationsPage() {
     const {t} = useTranslation('common');
@@ -11,7 +11,7 @@ export function CollaborationsPage() {
                 <p>{t('mock.soon')}</p>
             </TextFull>
 
-            <LinkButton label={t('buttons.back')} to='/' className="mt-auto"/>
+            <BackButton label={t('buttons.back')} className="mt-auto"/>
         </span>
     )
 }

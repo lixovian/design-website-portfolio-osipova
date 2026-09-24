@@ -1,6 +1,7 @@
 import {useTranslation} from "react-i18next";
 import {LinkList} from "../components/buttons/LinkList.tsx";
-import {LinkButton, type LinkItem} from "../components/buttons/LinkButton.tsx";
+import {type LinkItem} from "../components/buttons/LinkButton.tsx";
+import {BackButton} from "../components/buttons/BackButton.tsx";
 
 const navigation = [
     {labelKey: 'projects.total_projects_exhibitions', to: 'exhibitions'},
@@ -22,8 +23,7 @@ export function ProjectsPage() {
             <span className="flex flex-1 flex-col">
             <LinkList items={translatedNavigation}/>
 
-            <LinkButton
-                to="/"
+            <BackButton
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />

@@ -35,7 +35,7 @@ export function MainPage() {
                 className="pointer-events-none absolute bottom-0 right-0 z-0 w-auto h-[80%] select-none"
             />
 
-            <div className="absolute bottom-8 ">
+            <div className="relative z-10 mt-auto">
                 <LanguageSwitch/>
             </div>
         </>

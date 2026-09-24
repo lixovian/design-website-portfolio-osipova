@@ -3,11 +3,11 @@
     "title": "NATALIA_OSIPOVA"
   },
   "navigation": {
-    "cv": "lebenslauf",
-    "projects": "projekte",
+    "cv": "cv",
+    "projects": "projects",
     "statement": "statement",
-    "music": "musik",
-    "collaborations": "kollaborationen",
-    "contacts": "kontakte"
+    "music": "music",
+    "collaborations": "collaborations",
+    "contacts": "contacts"
   }
 }

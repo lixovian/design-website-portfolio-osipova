@@ -1,5 +1,13 @@
 {
   "header": {
     "title": "PROJECTS"
+  },
+  "projects": {
+    "projects.total_projects_exhibitions": "total_projects_exhibitions",
+    "projects.installations": "installations",
+    "projects.objects": "objects",
+    "projects.print": "print",
+    "projects.theatre": "theatre",
+    "projects.graffiti_gallery": "graffiti_gallery"
   }
 }

@@ -1,5 +1,10 @@
 {
   "header": {
-    "title": "КОНТАКТЫ"
-  }
+    "title": "CONTACTS"
+  },
+
+  "mail": "mail",
+  "instagram": "instagram",
+  "telegram": "telegram",
+  "phone": "phone"
 }

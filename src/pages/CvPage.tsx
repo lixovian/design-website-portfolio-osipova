@@ -1,12 +1,12 @@
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
 import { TextLeft } from '../components/text/TextLeft.tsx'
+import {LinkButton} from "../components/buttons/LinkButton.tsx";
 
 export function CvPage() {
-    const { t } = useTranslation('cv')
+    const {t} = useTranslation(['cv', 'common'])
 
     return (
-        <TextLeft className="flex flex-col gap-8 font-light">
+        <TextLeft>
             <p>{t('intro')}</p>
 
             <p>{t('practice')}</p>
@@ -17,12 +17,10 @@ export function CvPage() {
 
             <p className="whitespace-pre-line">{t('education')}</p>
 
-            <Link
+            <LinkButton
                 to="/"
-                className="mt-4 transition-colors hover:text-accent"
-            >
-                {t('back')}
-            </Link>
+                label={t('common:buttons.back')}
+            />
         </TextLeft>
     )
 }

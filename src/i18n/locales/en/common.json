@@ -3,5 +3,8 @@
     "de": "de",
     "en": "en",
     "ru": "ru"
+  },
+  "buttons": {
+    "back": "main_page"
   }
 }

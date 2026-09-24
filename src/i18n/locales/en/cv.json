@@ -1,11 +1,9 @@
 {
-  "header": {
-    "title": "CV"
-  },
-  "intro": "Natalia Osipova (2003, Moscow)",
-  "practice": "In her artistic practice, Natalia works with sculpture, installation, objects, video art and sound, examining the mechanisms behind visual expression and the boundaries of the visible.",
-  "subject": "Her research focuses on visual strategies of omission, practices of veiling, and processes of censorship and information concealment—both in physical urban environments and in digital space. Through the delicate deconstruction of everyday and technological contexts, the artist studies mechanisms of concealment, distortion and the partial removal of images.",
-  "method": "Her primary method is field observation, data collection and systematization. Working at the intersection of material and audiovisual art, she constructs a complex system of traces and gaps, revealing hidden subtexts and invisible structures that shape contemporary perception.",
-  "education": "Education:\nAcademic Art Lyceum of the Moscow Academic Art Institute\nHSE School of Design",
-  "back": "main_page"
+  "header":{"title":"CV"},
+  "intro":"natasha osipova (2003, moscow)",
+  "practice":"in her artistic practice, natasha works with sculpture, installation, object, video art, and sound, analysing the mechanisms that shape visual statements and the boundaries of the visible.",
+  "subject":"her research focuses on visual strategies of understatement, practices of veiling, and processes of censoring and concealing information—both in the physical urban environment and in digital space. through a delicate deconstruction of everyday and technological contexts, the artist examines the mechanisms of hiding, distortion, and partial removal of images.",
+  "method":"her working method is based on field observation and the collection and systematisation of data. working at the intersection of material and audiovisual media, she builds a complex system of traces and gaps, revealing hidden subtexts and invisible structures that shape contemporary perception.",
+  "education":"education:\nacademic art lyceum of the russian academy of arts\nhse art and design school",
+  "back":"main_page"
 }

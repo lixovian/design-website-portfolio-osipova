@@ -1,5 +1,15 @@
 {
-  "header": {
-    "title": "STATEMENT"
+  "header":{"title":"STATEMENT"},
+  "associations":{
+    "incompleteness":{"left":"visual understatement","right":"process"},
+    "veiling":{"left":"veiling","right":"strategy"},
+    "urbanBarrier":{"left":"urban barrier","right":"algorithm"},
+    "digitalCensorship":{"left":"digital censorship","right":"form"},
+    "visibility":{"left":"the image ceases to be transparent","right":"it becomes a field of hidden tension"},
+    "structure":{"left":"structure of concealment","right":"language"},
+    "glitch":{"left":"algorithmic glitch","right":"statement"},
+    "pause":{"left":"pause","right":"semantic centre"},
+    "art":{"left":"art ceases to be a demonstration","right":"it becomes a tool for revealing the subject"},
+    "implication":{"left":"underlying meaning","right":"the space between"}
   }
 }

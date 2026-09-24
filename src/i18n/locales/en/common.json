@@ -1,10 +1,1 @@
-{
-  "languages": {
-    "de": "de",
-    "en": "en",
-    "ru": "ru"
-  },
-  "buttons": {
-    "back": "main_page"
-  }
-}
+{"languages":{"de":"de","en":"en","ru":"ru"},"buttons":{"back":"main_page","copied":"copied"},"mock":{"soon":"soon"}}

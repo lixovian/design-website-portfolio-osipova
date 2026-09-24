@@ -1,7 +1,1 @@
-{
-  "languages": {
-    "de": "de",
-    "en": "en",
-    "ru": "ru"
-  }
-}
+{"languages":{"de":"de","en":"en","ru":"ru"},"buttons":{"back":"main_page","copied":"kopiert"},"mock":{"soon":"soon"}}

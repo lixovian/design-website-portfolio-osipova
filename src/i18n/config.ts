@@ -9,6 +9,27 @@ import deStatement from './locales/de/statement.json'
 import deMusic from './locales/de/music.json'
 import deCollaborations from './locales/de/collaborations.json'
 import deContacts from './locales/de/contacts.json'
+import deGraffiti from './locales/de/projects/graffiti.json'
+import deObjects from './locales/de/projects/objects.json'
+import deExhibitions from './locales/de/projects/exhibitions.json'
+import deInstallations from './locales/de/projects/installations.json'
+import deTheatre from './locales/de/projects/theatre.json'
+import dePrint from './locales/de/projects/print.json'
+import deBurn from './locales/de/projects/objects/burn.json'
+import deAtMyHome from './locales/de/projects/print/at_my_home.json'
+import deFish from './locales/de/projects/theatre/fish.json'
+import deIndigestionOfReality from './locales/de/projects/theatre/indigestion_of_reality.json'
+import deNewAngels from './locales/de/projects/objects/new_angels.json'
+import deUndisclosed from './locales/de/projects/objects/undisclosed.json'
+import deWindows from './locales/de/projects/objects/windows.json'
+import deTattooedAnimals from './locales/de/projects/objects/tattooed_animals.json'
+import deDichoPb from './locales/de/projects/objects/dicho_pb.json'
+import deSensitiveContent from './locales/de/projects/installations/sensitive_content.json'
+import deL63 from './locales/de/projects/installations/l_63.json'
+import deWindowsCom from './locales/de/projects/exhibitions/windows_com.json'
+import deSignals from './locales/de/projects/exhibitions/signals.json'
+import deBordersTerritories from './locales/de/projects/exhibitions/borders_territories.json'
+import deTruckBoy from './locales/de/projects/exhibitions/truck_boy.json'
 
 import enCommon from './locales/en/common.json'
 import enMain from './locales/en/main.json'
@@ -18,6 +39,27 @@ import enStatement from './locales/en/statement.json'
 import enMusic from './locales/en/music.json'
 import enCollaborations from './locales/en/collaborations.json'
 import enContacts from './locales/en/contacts.json'
+import enGraffiti from './locales/en/projects/graffiti.json'
+import enObjects from './locales/en/projects/objects.json'
+import enExhibitions from './locales/en/projects/exhibitions.json'
+import enInstallations from './locales/en/projects/installations.json'
+import enTheatre from './locales/en/projects/theatre.json'
+import enPrint from './locales/en/projects/print.json'
+import enBurn from './locales/en/projects/objects/burn.json'
+import enAtMyHome from './locales/en/projects/print/at_my_home.json'
+import enFish from './locales/en/projects/theatre/fish.json'
+import enIndigestionOfReality from './locales/en/projects/theatre/indigestion_of_reality.json'
+import enNewAngels from './locales/en/projects/objects/new_angels.json'
+import enUndisclosed from './locales/en/projects/objects/undisclosed.json'
+import enWindows from './locales/en/projects/objects/windows.json'
+import enTattooedAnimals from './locales/en/projects/objects/tattooed_animals.json'
+import enDichoPb from './locales/en/projects/objects/dicho_pb.json'
+import enSensitiveContent from './locales/en/projects/installations/sensitive_content.json'
+import enL63 from './locales/en/projects/installations/l_63.json'
+import enWindowsCom from './locales/en/projects/exhibitions/windows_com.json'
+import enSignals from './locales/en/projects/exhibitions/signals.json'
+import enBordersTerritories from './locales/en/projects/exhibitions/borders_territories.json'
+import enTruckBoy from './locales/en/projects/exhibitions/truck_boy.json'
 
 import ruCommon from './locales/ru/common.json'
 import ruMain from './locales/ru/main.json'
@@ -72,6 +114,27 @@ void i18n
                 music: deMusic,
                 collaborations: deCollaborations,
                 contacts: deContacts,
+                graffiti: deGraffiti,
+                objects: deObjects,
+                exhibitions: deExhibitions,
+                installations: deInstallations,
+                theatre: deTheatre,
+                print: dePrint,
+                burn: deBurn,
+                at_my_home: deAtMyHome,
+                fish: deFish,
+                indigestion_of_reality: deIndigestionOfReality,
+                new_angels: deNewAngels,
+                undisclosed: deUndisclosed,
+                windows: deWindows,
+                tattooed_animals: deTattooedAnimals,
+                dicho_pb: deDichoPb,
+                sensitive_content: deSensitiveContent,
+                l_63: deL63,
+                windows_com: deWindowsCom,
+                signals: deSignals,
+                borders_territories: deBordersTerritories,
+                truck_boy: deTruckBoy,
             },
             en: {
                 common: enCommon,
@@ -82,6 +145,27 @@ void i18n
                 music: enMusic,
                 collaborations: enCollaborations,
                 contacts: enContacts,
+                graffiti: enGraffiti,
+                objects: enObjects,
+                exhibitions: enExhibitions,
+                installations: enInstallations,
+                theatre: enTheatre,
+                print: enPrint,
+                burn: enBurn,
+                at_my_home: enAtMyHome,
+                fish: enFish,
+                indigestion_of_reality: enIndigestionOfReality,
+                new_angels: enNewAngels,
+                undisclosed: enUndisclosed,
+                windows: enWindows,
+                tattooed_animals: enTattooedAnimals,
+                dicho_pb: enDichoPb,
+                sensitive_content: enSensitiveContent,
+                l_63: enL63,
+                windows_com: enWindowsCom,
+                signals: enSignals,
+                borders_territories: enBordersTerritories,
+                truck_boy: enTruckBoy,
             },
             ru: {
                 common: ruCommon,

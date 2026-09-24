@@ -1,5 +1,15 @@
 {
-  "header": {
-    "title": "STATEMENT"
+  "header":{"title":"STATEMENT"},
+  "associations":{
+    "incompleteness":{"left":"visuelle unausgesprochenheit","right":"prozess"},
+    "veiling":{"left":"verschleierung","right":"strategie"},
+    "urbanBarrier":{"left":"städtische barriere","right":"algorithmus"},
+    "digitalCensorship":{"left":"digitale zensur","right":"form"},
+    "visibility":{"left":"das bild hört auf, transparent zu sein","right":"es wird zum feld verborgener spannung"},
+    "structure":{"left":"struktur des verbergens","right":"sprache"},
+    "glitch":{"left":"algorithmische störung","right":"aussage"},
+    "pause":{"left":"pause","right":"semantisches zentrum"},
+    "art":{"left":"kunst hört auf, demonstration zu sein","right":"sie wird zum instrument der sichtbarwerdung des subjekts"},
+    "implication":{"left":"implizite bedeutung","right":"raum dazwischen"}
   }
 }

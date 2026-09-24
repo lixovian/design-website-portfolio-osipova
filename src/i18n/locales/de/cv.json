@@ -1,11 +1,9 @@
 {
-  "header": {
-    "title": "CV"
-  },
-  "intro": "Natalia Osipova (2003, Moskau)",
-  "practice": "In ihrer künstlerischen Praxis arbeitet Natalia mit Skulptur, Installation, Objekt, Videokunst und Klang. Sie untersucht die Mechanismen visueller Aussagen und die Grenzen des Sichtbaren.",
-  "subject": "Im Mittelpunkt ihrer Forschung stehen visuelle Strategien des Ungesagten, Praktiken der Verschleierung sowie Prozesse der Zensur und des Verbergens von Informationen—sowohl im physischen Stadtraum als auch im digitalen Raum. Durch die behutsame Dekonstruktion alltäglicher und technologischer Kontexte untersucht die Künstlerin Mechanismen des Verbergens, der Verzerrung und des teilweisen Entzugs von Bildern.",
-  "method": "Ihre zentrale Methode basiert auf Feldbeobachtung sowie auf der Sammlung und Systematisierung von Daten. An der Schnittstelle von materieller und audiovisueller Kunst entwickelt sie ein komplexes System aus Spuren und Leerstellen und macht verborgene Subtexte und unsichtbare Strukturen sichtbar, die die heutige Wahrnehmung bestimmen.",
-  "education": "Ausbildung:\nAkademisches Kunstlyzeum des Moskauer Akademischen Kunstinstituts\nHSE School of Design",
-  "back": "main_page"
+  "header":{"title":"CV"},
+  "intro":"natasha osipova (2003, moskau)",
+  "practice":"in ihrer künstlerischen praxis arbeitet natasha mit skulptur, installation, objekt, videokunst und klang. dabei analysiert sie die mechanismen, durch die visuelle aussagen entstehen, sowie die grenzen des sichtbaren.",
+  "subject":"im mittelpunkt ihrer forschung stehen visuelle strategien der andeutung, praktiken der verschleierung sowie prozesse der zensur und des verbergens von informationen—sowohl im physischen stadtraum als auch im digitalen raum. durch die behutsame dekonstruktion alltäglicher und technologischer kontexte untersucht die künstlerin mechanismen des verbergens, der verzerrung und der partiellen entnahme von bildern.",
+  "method":"ihre arbeitsweise basiert auf feldbeobachtung sowie auf der sammlung und systematisierung von daten. an der schnittstelle von materiellem und audiovisuellem baut sie ein komplexes system aus spuren und leerstellen auf und macht verborgene subtexte sowie unsichtbare strukturen sichtbar, die die heutige wahrnehmung prägen.",
+  "education":"ausbildung:\nakademisches kunstlyzeum der russischen kunstakademie\nhse art and design school",
+  "back":"main_page"
 }

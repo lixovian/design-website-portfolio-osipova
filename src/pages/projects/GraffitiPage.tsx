@@ -76,6 +76,6 @@ export function GraffitiPage() {
                 className="mt-auto"
                 label={t('common:buttons.back')}
             />
-                </span>
+        </span>
     )
 }

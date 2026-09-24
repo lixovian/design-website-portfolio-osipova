@@ -28,6 +28,11 @@ import ruMusic from './locales/ru/music.json'
 import ruCollaborations from './locales/ru/collaborations.json'
 import ruContacts from './locales/ru/contacts.json'
 import ruGraffiti from './locales/ru/projects/graffiti.json'
+import ruObjects from './locales/ru/projects/objects.json'
+import ruExhibitions from './locales/ru/projects/exhibitions.json'
+import ruInstallations from './locales/ru/projects/installations.json'
+import ruTheatre from './locales/ru/projects/theatre.json'
+import ruPrint from './locales/ru/projects/print.json'
 
 export const supportedLanguages = ['de', 'en', 'ru'] as const
 export type Language = (typeof supportedLanguages)[number]
@@ -73,6 +78,11 @@ void i18n
                 collaborations: ruCollaborations,
                 contacts: ruContacts,
                 graffiti: ruGraffiti,
+                objects: ruObjects,
+                exhibitions: ruExhibitions,
+                installations: ruInstallations,
+                theatre: ruTheatre,
+                print: ruPrint,
             },
         },
         lng: initialLanguage,

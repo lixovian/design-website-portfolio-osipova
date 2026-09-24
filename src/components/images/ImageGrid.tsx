@@ -9,6 +9,7 @@ export function ImageGrid({images}: ImageGridProps) {
                 <img
                     key={src}
                     src={src}
+                    alt="Image"
                     className="h-auto w-full"
                     loading="lazy"
                 />

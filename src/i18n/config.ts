@@ -42,6 +42,12 @@ import ruUndisclosed from './locales/ru/projects/objects/undisclosed.json'
 import ruWindows from './locales/ru/projects/objects/windows.json'
 import ruTattooedAnimals from './locales/ru/projects/objects/tattooed_animals.json'
 import ruDichoPb from './locales/ru/projects/objects/dicho_pb.json'
+import ruSensitiveContent from './locales/ru/projects/installations/sensitive_content.json'
+import ruL63 from './locales/ru/projects/installations/l_63.json'
+import ruWindowsCom from './locales/ru/projects/exhibitions/windows_com.json'
+import ruSignals from './locales/ru/projects/exhibitions/signals.json'
+import ruBordersTerritories from './locales/ru/projects/exhibitions/borders_territories.json'
+import ruTruckBoy from './locales/ru/projects/exhibitions/truck_boy.json'
 
 export const supportedLanguages = ['de', 'en', 'ru'] as const
 export type Language = (typeof supportedLanguages)[number]
@@ -101,6 +107,12 @@ void i18n
                 windows: ruWindows,
                 tattooed_animals: ruTattooedAnimals,
                 dicho_pb: ruDichoPb,
+                sensitive_content: ruSensitiveContent,
+                l_63: ruL63,
+                windows_com: ruWindowsCom,
+                signals: ruSignals,
+                borders_territories: ruBordersTerritories,
+                truck_boy: ruTruckBoy,
             },
         },
         lng: initialLanguage,

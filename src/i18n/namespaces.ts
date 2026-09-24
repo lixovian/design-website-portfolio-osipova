@@ -21,6 +21,12 @@ export const pageNamespaces = [
     'windows',
     'tattooed_animals',
     'dicho_pb',
+    'sensitive_content',
+    'l_63',
+    'windows_com',
+    'signals',
+    'borders_territories',
+    'truck_boy',
 ] as const
 
 export type PageNamespace = (typeof pageNamespaces)[number]

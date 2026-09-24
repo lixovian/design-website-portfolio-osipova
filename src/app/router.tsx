@@ -22,6 +22,12 @@ import {UndisclosedPage} from "../pages/projects/objects/UndisclosedPage.tsx";
 import {WindowsPage} from "../pages/projects/objects/WindowsPage.tsx";
 import {TattoedAnimalsPage} from "../pages/projects/objects/TattoedAnimalsPage.tsx";
 import {DichoPbPage} from "../pages/projects/objects/DichoPbPage.tsx";
+import {SensitiveContentPage} from "../pages/projects/installations/SensitiveContentPage.tsx";
+import {L63Page} from "../pages/projects/installations/L63Page.tsx";
+import {WindowsComPage} from "../pages/projects/exhibitions/WindowsComPage.tsx";
+import {SignalsPage} from "../pages/projects/exhibitions/SignalsPage.tsx";
+import {BordersTerritoriesPage} from "../pages/projects/exhibitions/BordersTerritoriesPage.tsx";
+import {TruckBoyPage} from "../pages/projects/exhibitions/TruckBoyPage.tsx";
 
 export const router = createBrowserRouter([
     {
@@ -237,11 +243,77 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
+                path: '/projects/exhibitions/windows_com',
+                element: <WindowsComPage />,
+                handle: {
+                    header: {
+                        namespace: 'windows_com',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/exhibitions/signals',
+                element: <SignalsPage />,
+                handle: {
+                    header: {
+                        namespace: 'signals',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/exhibitions/borders_territories',
+                element: <BordersTerritoriesPage />,
+                handle: {
+                    header: {
+                        namespace: 'borders_territories',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/exhibitions/truck_boy',
+                element: <TruckBoyPage />,
+                handle: {
+                    header: {
+                        namespace: 'truck_boy',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
                 path: '/projects/installations',
                 element: <InstallationsPage />,
                 handle: {
                     header: {
                         namespace: 'installations',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/installations/sensitive_content',
+                element: <SensitiveContentPage />,
+                handle: {
+                    header: {
+                        namespace: 'sensitive_content',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/installations/l_63',
+                element: <L63Page />,
+                handle: {
+                    header: {
+                        namespace: 'l_63',
                         titleKey: 'header.title',
                         emoji: 'flying',
                     },

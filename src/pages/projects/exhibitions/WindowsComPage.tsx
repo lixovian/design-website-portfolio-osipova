@@ -37,7 +37,7 @@ export function WindowsComPage() {
                 t('credits.language'),
                 t('credits.design'),
                 t('credits.development'),
-                <span className="underline" key="site">{t('credits.site')}</span>,
+                <a className="underline" href="https://portfolioosipovanatalya.tilda.ws/">{t('credits.site')}</a>,
             ],
         },
     ]

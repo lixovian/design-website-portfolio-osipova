@@ -6,6 +6,7 @@ export const pageNamespaces = [
     'music',
     'collaborations',
     'contacts',
+    'graffiti',
 ] as const
 
 export type PageNamespace = (typeof pageNamespaces)[number]

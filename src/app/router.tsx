@@ -7,6 +7,7 @@ import { StatementPage } from '../pages/StatementPage.tsx'
 import { MusicPage } from '../pages/MusicPage.tsx'
 import { CollaborationsPage } from '../pages/CollaborationsPage.tsx'
 import { ContactsPage } from '../pages/ContactsPage.tsx'
+import {GraffitiPage} from "../pages/projects/GraffitiPage.tsx";
 
 export const router = createBrowserRouter([
     {
@@ -86,6 +87,17 @@ export const router = createBrowserRouter([
                         namespace: 'contacts',
                         titleKey: 'header.title',
                         emoji: 'kiss',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/graffiti',
+                element: <GraffitiPage />,
+                handle: {
+                    header: {
+                        namespace: 'graffiti',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
                     },
                 } satisfies PageHandle,
             },

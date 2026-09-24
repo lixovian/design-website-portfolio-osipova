@@ -3,12 +3,12 @@ import {LinkList} from "../components/buttons/LinkList.tsx";
 import {LinkButton, type LinkItem} from "../components/buttons/LinkButton.tsx";
 
 const navigation = [
-    {labelKey: 'projects.total_projects_exhibitions', to: 'projects/exhibitions'},
-    {labelKey: 'projects.installations', to: 'projects/installations'},
-    {labelKey: 'projects.objects', to: 'projects/objects'},
-    {labelKey: 'projects.print', to: 'projects/print'},
-    {labelKey: 'projects.theatre', to: 'projects/theatre'},
-    {labelKey: 'projects.graffiti_gallery', to: 'projects/graffiti'}
+    {labelKey: 'projects.total_projects_exhibitions', to: 'exhibitions'},
+    {labelKey: 'projects.installations', to: 'installations'},
+    {labelKey: 'projects.objects', to: 'objects'},
+    {labelKey: 'projects.print', to: 'print'},
+    {labelKey: 'projects.theatre', to: 'theatre'},
+    {labelKey: 'projects.graffiti_gallery', to: 'graffiti'}
 ]
 
 export function ProjectsPage() {

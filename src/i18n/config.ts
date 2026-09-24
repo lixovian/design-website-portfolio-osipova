@@ -27,6 +27,7 @@ import ruStatement from './locales/ru/statement.json'
 import ruMusic from './locales/ru/music.json'
 import ruCollaborations from './locales/ru/collaborations.json'
 import ruContacts from './locales/ru/contacts.json'
+import ruGraffiti from './locales/ru/projects/graffiti.json'
 
 export const supportedLanguages = ['de', 'en', 'ru'] as const
 export type Language = (typeof supportedLanguages)[number]
@@ -71,6 +72,7 @@ void i18n
                 music: ruMusic,
                 collaborations: ruCollaborations,
                 contacts: ruContacts,
+                graffiti: ruGraffiti,
             },
         },
         lng: initialLanguage,

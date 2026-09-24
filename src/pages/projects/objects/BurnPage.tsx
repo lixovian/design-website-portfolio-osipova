@@ -33,6 +33,7 @@ export function BurnPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.technique'),
                 t('credits.size'),

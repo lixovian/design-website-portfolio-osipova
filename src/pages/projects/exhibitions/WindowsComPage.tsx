@@ -21,6 +21,7 @@ import image14 from "../../../assets/images/projects/exhibitions/windows_com/14_
 import image15 from "../../../assets/images/projects/exhibitions/windows_com/15_right.png";
 import image16 from "../../../assets/images/projects/exhibitions/windows_com/16_full.png";
 import image17 from "../../../assets/images/projects/exhibitions/windows_com/17_full.png";
+import {TextLink} from "../../../components/text/TextLink.tsx";
 
 export function WindowsComPage() {
     const {t} = useTranslation(['windows_com', 'common'])
@@ -31,13 +32,14 @@ export function WindowsComPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.platform'),
                 t('credits.engine'),
                 t('credits.language'),
                 t('credits.design'),
                 t('credits.development'),
-                <a className="underline" href="https://portfolioosipovanatalya.tilda.ws/">{t('credits.site')}</a>,
+                <TextLink href="https://portfolioosipovanatalya.tilda.ws/" label={t('credits.site')}/>,
             ],
         },
     ]

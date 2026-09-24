@@ -40,6 +40,7 @@ export function FishPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.medium'),
                 t('credits.year'),

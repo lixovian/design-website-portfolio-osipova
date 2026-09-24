@@ -27,6 +27,7 @@ export function AtMyHomePage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.material'),
                 t('credits.size'),

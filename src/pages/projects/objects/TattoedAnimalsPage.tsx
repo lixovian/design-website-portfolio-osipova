@@ -49,6 +49,7 @@ export function TattoedAnimalsPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.edition'),
                 t('credits.materials'),

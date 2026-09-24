@@ -9,6 +9,7 @@ import image3 from "../../../assets/images/projects/theatre/indigestion_of_reali
 import image4 from "../../../assets/images/projects/theatre/indigestion_of_reality/4_full.png";
 import image5 from "../../../assets/images/projects/theatre/indigestion_of_reality/5_full.png";
 import image6 from "../../../assets/images/projects/theatre/indigestion_of_reality/6_full.png";
+import {TextLink} from "../../../components/text/TextLink.tsx";
 
 const topics = [
     {
@@ -47,15 +48,14 @@ export function IndigestionOfRealityPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.medium'),
                 t('credits.year'),
                 <span key="team" className="whitespace-pre-line">
                     {t('credits.team')}
                 </span>,
-                <a key="video" className="underline" href="https://kinescope.io/siU5ksmXAEZkzjQLn5dHW8">
-                    {t('credits.video')}
-                </a>,
+                <TextLink href="https://kinescope.io/siU5ksmXAEZkzjQLn5dHW8" label={t('credits.video')}/>,
             ],
         },
     ]

@@ -14,15 +14,11 @@ import image9 from "../../../assets/images/projects/exhibitions/borders_territor
 import image10 from "../../../assets/images/projects/exhibitions/borders_territories/10_full.png";
 import image11 from "../../../assets/images/projects/exhibitions/borders_territories/11_full.png";
 import image12 from "../../../assets/images/projects/exhibitions/borders_territories/12_full.png";
+import image13 from "../../../assets/images/projects/exhibitions/borders_territories/13_full.png";
 import image14 from "../../../assets/images/projects/exhibitions/borders_territories/14_left.png";
 import image15 from "../../../assets/images/projects/exhibitions/borders_territories/15_full.png";
 import image16 from "../../../assets/images/projects/exhibitions/borders_territories/16_full.png";
 import image17 from "../../../assets/images/projects/exhibitions/borders_territories/17_right.png";
-
-const image13 = new URL(
-    '../../../assets/images/projects/exhibitions/borders_territories/13_full',
-    import.meta.url,
-).href
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Общий вид выставки', layout: 'full'},
@@ -58,6 +54,7 @@ export function BordersTerritoriesPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [t('credits.city'), t('credits.year'), t('credits.authors')],
         },
     ]

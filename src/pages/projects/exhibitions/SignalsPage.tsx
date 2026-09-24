@@ -39,6 +39,7 @@ export function SignalsPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [t('credits.city'), t('credits.year')],
         },
     ]

@@ -23,6 +23,7 @@ export function NewAngelsPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.technique'),
                 t('credits.sizes'),

@@ -37,6 +37,7 @@ export function L63Page() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [t('credits.material')],
         },
     ]

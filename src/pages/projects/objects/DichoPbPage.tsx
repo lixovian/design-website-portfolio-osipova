@@ -47,6 +47,7 @@ export function DichoPbPage() {
         },
         {
             title: t('credits.title'),
+            variant: 'credits',
             paragraphs: [
                 t('credits.edition'),
                 t('credits.materials'),

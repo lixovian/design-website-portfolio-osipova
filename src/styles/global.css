@@ -16,3 +16,9 @@ body {
     font-size: 22px;
     line-height: 1.15;
 }
+
+@layer components {
+    .credits-text > p:has(> .text-link) {
+        @apply mt-4;
+    }
+}

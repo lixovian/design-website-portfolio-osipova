@@ -33,6 +33,7 @@ import ruExhibitions from './locales/ru/projects/exhibitions.json'
 import ruInstallations from './locales/ru/projects/installations.json'
 import ruTheatre from './locales/ru/projects/theatre.json'
 import ruPrint from './locales/ru/projects/print.json'
+import ruBurn from './locales/ru/projects/objects/burn.json'
 
 export const supportedLanguages = ['de', 'en', 'ru'] as const
 export type Language = (typeof supportedLanguages)[number]
@@ -83,6 +84,7 @@ void i18n
                 installations: ruInstallations,
                 theatre: ruTheatre,
                 print: ruPrint,
+                burn: ruBurn,
             },
         },
         lng: initialLanguage,

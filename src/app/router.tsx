@@ -13,6 +13,7 @@ import {ExhibitionsPage} from "../pages/projects/ExhibitionsPage.tsx";
 import {InstallationsPage} from "../pages/projects/InstallationsPage.tsx";
 import {TheatrePage} from "../pages/projects/TheatrePage.tsx";
 import {PrintPage} from "../pages/projects/PrintPage.tsx";
+import {BurnPage} from "../pages/projects/objects/BurnPage.tsx";
 
 export const router = createBrowserRouter([
     {
@@ -112,6 +113,17 @@ export const router = createBrowserRouter([
                 handle: {
                     header: {
                         namespace: 'objects',
+                        titleKey: 'header.title',
+                        emoji: 'flying',
+                    },
+                } satisfies PageHandle,
+            },
+            {
+                path: '/projects/objects/burn',
+                element: <BurnPage />,
+                handle: {
+                    header: {
+                        namespace: 'burn',
                         titleKey: 'header.title',
                         emoji: 'flying',
                     },

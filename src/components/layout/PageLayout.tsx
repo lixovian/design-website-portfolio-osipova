@@ -20,7 +20,7 @@ export function PageLayout() {
 
     return (
         <div>
-            <div className="flex flex-col relative min-h-svh overflow-hidden px-16 pt-16 pb-8">
+            <div className="relative flex min-h-svh flex-col overflow-hidden px-4 pb-6 pt-6 sm:px-8 sm:pt-8 lg:px-16 lg:pb-8 lg:pt-16">
                 {activeHandle?.header && (
                     <Header
                         title={t(activeHandle.header.titleKey, {
@@ -30,7 +30,7 @@ export function PageLayout() {
                     />
                 )}
 
-                <main className="pt-12 flex w-full flex-1 flex-col">
+                <main className="flex w-full flex-1 flex-col pt-8 md:pt-12">
                     <Outlet />
                 </main>
             </div>

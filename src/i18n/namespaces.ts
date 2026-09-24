@@ -12,6 +12,7 @@ export const pageNamespaces = [
     'installations',
     'theatre',
     'print',
+    'burn',
 ] as const
 
 export type PageNamespace = (typeof pageNamespaces)[number]

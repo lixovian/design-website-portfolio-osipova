@@ -12,7 +12,7 @@ export function PrintPage() {
 
     return (
         <span className="flex flex-1 flex-col gap-16">
-            <LinkImageGrid items={prints} align="start"/>
+            <LinkImageGrid items={prints} align="start" size="large"/>
 
             <BackButton
                 className="mt-auto"

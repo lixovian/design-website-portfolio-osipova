@@ -8,7 +8,7 @@ export type LinkItem = {
 
 export function LinkButton({to, label, className}: LinkItem) {
     return (
-        <Link className={`text-sm font-light transition-colors hover:text-accent ${className}`}
+        <Link className={`text-sm w-fit font-light transition-colors hover:text-accent ${className}`}
             to={to}>{label}</Link>
     )
 }

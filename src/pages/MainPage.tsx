@@ -26,14 +26,16 @@ export function MainPage() {
                 <LinkList items={translatedNavigation}/>
             </div>
 
-            <img
-                src={backgroundImage}
-                alt=""
-                aria-hidden="true"
-                loading="eager"
-                fetchPriority="high"
-                className="pointer-events-none absolute bottom-0 right-0 z-0 w-auto h-[80%] select-none"
-            />
+            <div className="pointer-events-none absolute inset-y-0 left-1/2 -z-10 w-screen max-w-none -translate-x-1/2 overflow-hidden">
+                <img
+                    src={backgroundImage}
+                    alt=""
+                    aria-hidden="true"
+                    loading="eager"
+                    fetchPriority="high"
+                    className="absolute bottom-0 right-0 h-[80%] w-auto max-w-none select-none"
+                />
+            </div>
 
             <div className="relative z-10 mt-auto">
                 <LanguageSwitch/>

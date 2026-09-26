@@ -33,7 +33,7 @@ export function MainPage() {
                     aria-hidden="true"
                     loading="eager"
                     fetchPriority="high"
-                    className="absolute bottom-0 right-0 h-[80%] w-auto max-w-none select-none"
+                    className="absolute bottom-0 right-0 h-full w-[70vw] max-w-none object-contain object-right-bottom select-none sm:h-[80%] sm:w-auto"
                 />
             </div>
 

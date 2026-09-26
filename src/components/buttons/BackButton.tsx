@@ -23,7 +23,7 @@ export function BackButton({label, className}: BackButtonProps) {
         <LinkButton
             to={getParentPath(pathname)}
             label={label}
-            className={className}
+            className={`select-none ${className ?? ''}`}
         />
     )
 }

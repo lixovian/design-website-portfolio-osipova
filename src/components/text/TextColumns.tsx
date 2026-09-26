@@ -15,7 +15,7 @@ type TextColumnsProps = {
 
 export function TextColumns({items, className}: TextColumnsProps) {
     return (
-        <div className={`grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16 ${className ?? ''}`}>
+        <div className={`grid grid-cols-1 gap-4 sm:gap-8 md:grid-cols-2 md:gap-16 ${className ?? ''}`}>
             {items.map((item, columnIndex) => (
                 <section className="min-w-0" key={columnIndex}>
                     <h2 className="font-normal">{item.title}</h2>

@@ -61,11 +61,11 @@ export function IndigestionOfRealityPage() {
     ]
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <TextColumns items={textColumns}/>
 
             {topics.map((topic) => (
-                <section className="flex flex-col gap-8 md:gap-12" key={topic.translationKey}>
+                <section className="flex flex-col gap-4 sm:gap-8 md:gap-12" key={topic.translationKey}>
                     <h2 className="font-normal">
                         {t(`topics.${topic.translationKey}.title`)}
                     </h2>

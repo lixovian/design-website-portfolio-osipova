@@ -22,7 +22,7 @@ const imageComponents: Record<ProjectImageLayout, ComponentType<ProjectImageProp
 
 export function ProjectImageGallery({images, className}: ProjectImageGalleryProps) {
     return (
-        <div className={`flex flex-col gap-8 md:gap-12 ${className ?? ''}`}>
+        <div className={`flex flex-col gap-4 sm:gap-8 md:gap-12 ${className ?? ''}`}>
             {images.map((image) => {
                 const ImageComponent = imageComponents[image.layout]
 

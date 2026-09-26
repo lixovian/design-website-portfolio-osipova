@@ -4,7 +4,7 @@ type TextFullProps = PropsWithChildren<{
     className?: string
 }>
 
-const DEFAULT_CLASS_NAME: string = 'flex flex-col gap-8 font-light';
+const DEFAULT_CLASS_NAME: string = 'flex flex-col gap-4 font-light sm:gap-8';
 
 export default function TextFull({children, className = DEFAULT_CLASS_NAME}: TextFullProps) {
     return (

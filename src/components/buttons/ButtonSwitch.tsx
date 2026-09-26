@@ -11,7 +11,7 @@ type ButtonSwitchProps = {
 
 export function ButtonSwitch({items, activeId}: ButtonSwitchProps) {
     return (
-        <div className="flex gap-4" role="group">
+        <div className="flex gap-2 sm:gap-4" role="group">
             {items.map(({id, label, action}) => {
                 const isActive = id === activeId
 

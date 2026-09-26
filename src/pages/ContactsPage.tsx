@@ -9,7 +9,7 @@ export function ContactsPage() {
 
     return (
         <span className="flex flex-col flex-1">
-        <TextFull className="flex flex-col gap-2 font-light">
+        <TextFull className="flex flex-col gap-1 font-light sm:gap-2">
             <p>{t('mail')}: <LineCopy copyingText="natalia.osipova03@icloud.com" label="natalia.osipova03@icloud.com" className="underline"/></p>
             <p>{t('instagram')}: <TextLink href="https://www.instagram.com/pivnayakryshka/" label="@pivnayakryshka"/></p>
             <p>{t('telegram')}: <TextLink href="https://t.me/pivnayakryshka" label="@pivnayakryshka"/></p>

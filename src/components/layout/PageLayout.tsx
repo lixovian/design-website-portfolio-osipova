@@ -34,7 +34,7 @@ export function PageLayout() {
                     />
                 )}
 
-                <main className="flex w-full flex-1 flex-col pt-8 md:pt-12">
+                <main className="flex w-full flex-1 flex-col pt-4 sm:pt-8 md:pt-12">
                     <Outlet />
                 </main>
             </div>

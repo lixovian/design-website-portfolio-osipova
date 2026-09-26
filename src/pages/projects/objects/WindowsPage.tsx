@@ -48,7 +48,7 @@ export function WindowsPage() {
     ]
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <TextColumns items={textColumns}/>
             <ProjectImageGallery images={images}/>
             <BackButton className="mt-auto" label={t('common:buttons.back')}/>

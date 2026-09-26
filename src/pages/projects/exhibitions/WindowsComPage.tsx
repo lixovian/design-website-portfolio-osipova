@@ -45,18 +45,18 @@ export function WindowsComPage() {
     ]
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <TextColumns items={textColumns}/>
 
-            <div className="flex flex-col gap-8 md:gap-12">
+            <div className="flex flex-col gap-4 sm:gap-8 md:gap-12">
                 <ImageFull src={image1} alt="Виртуальный лабиринт с оконными решётками"/>
                 <ImageFull src={image2} alt="Окно в пространстве виртуального лабиринта"/>
 
-                <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
-                    <TextLeft className="flex flex-col gap-4 font-light md:w-full">
+                <div className="grid grid-cols-1 gap-4 sm:gap-8 md:grid-cols-2 md:gap-16">
+                    <TextLeft className="flex flex-col gap-2 font-light sm:gap-4 md:w-full">
                         <p>{t('about.paragraph_2')}</p>
                     </TextLeft>
-                    <TextLeft className="flex flex-col gap-4 font-light md:w-full">
+                    <TextLeft className="flex flex-col gap-2 font-light sm:gap-4 md:w-full">
                         <p>{t('about.paragraph_3')}</p>
                         <p>{t('about.paragraph_4')}</p>
                     </TextLeft>

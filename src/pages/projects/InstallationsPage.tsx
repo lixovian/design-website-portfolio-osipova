@@ -13,7 +13,7 @@ export function InstallationsPage() {
     ];
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <LinkImageGrid items={installations} size="large"/>
 
             <BackButton

@@ -10,8 +10,8 @@ export function ConnectedLine({
                                   className = '',
                               }: ConnectedLineProps) {
     return (
-        <div className={`flex flex-wrap items-end gap-x-2 font-light ${className}`}>
-            <span className="flex min-w-0 flex-auto items-end gap-2">
+        <div className={`flex flex-wrap items-end gap-x-1 font-light sm:gap-x-2 ${className}`}>
+            <span className="flex min-w-0 flex-auto items-end gap-1 sm:gap-2">
                 <span className="w-fit min-w-0">{left}</span>
                 <span
                     aria-hidden="true"

@@ -12,7 +12,7 @@ export function Header({title, emoji}: PageHeaderProps) {
                 {title}
             </h1>
 
-            <span className="mx-2 min-w-4 flex-1 border-b-2 border-current"/>
+            <span className="mx-1 min-w-4 flex-1 border-b-2 border-current sm:mx-2"/>
 
             <span className="m-0 shrink-0 select-none whitespace-nowrap p-0">{emojiHandler(emoji)}</span>
         </header>

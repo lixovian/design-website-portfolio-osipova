@@ -25,7 +25,7 @@ export function LinkImageGrid({
     align = 'center',
 }: LinkImageGridProps) {
     return (
-        <div className={`flex flex-wrap gap-8 ${alignmentClasses[align]}`}>
+        <div className={`flex flex-wrap gap-x-4 gap-y-8 sm:gap-x-8 ${alignmentClasses[align]}`}>
             {items.map((item) => (
                 <LinkImage
                     key={item.to}

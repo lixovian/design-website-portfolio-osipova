@@ -62,7 +62,7 @@ export function GraffitiPage() {
     const {t} = useTranslation(['graffiti', 'common'])
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <TextLeft>
                 <p>{t('text.paragraph_1')}</p>
                 <p>{t('text.paragraph_2')}</p>

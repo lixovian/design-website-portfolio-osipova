@@ -4,7 +4,7 @@ type ImageGridProps = {
 
 export function ImageGrid({images}: ImageGridProps) {
     return (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-2 gap-y-4 sm:grid-cols-2 sm:gap-x-4 lg:grid-cols-3 2xl:grid-cols-4">
             {images.map((src) => (
                 <img
                     key={src}

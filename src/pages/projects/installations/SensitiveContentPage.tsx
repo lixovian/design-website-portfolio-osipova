@@ -30,10 +30,10 @@ export function SensitiveContentPage() {
     ]
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <TextColumns items={textColumns}/>
 
-            <div className="flex flex-col gap-8 md:gap-12">
+            <div className="flex flex-col gap-4 sm:gap-8 md:gap-12">
                 <ImageFull src={image1} alt="Баннер со знаками скрытого контента"/>
                 <ImageFull src={image2} alt="Комната, покрытая баннером со знаками"/>
                 <ImageFull src={image3} alt="Инсталляция в комнате с окном"/>

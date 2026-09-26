@@ -45,23 +45,23 @@ export function SignalsPage() {
     ]
 
     return (
-        <span className="flex flex-1 flex-col gap-16">
+        <span className="flex flex-1 flex-col gap-8 sm:gap-16">
             <TextColumns items={textColumns}/>
             <ProjectImageGallery images={openingImages}/>
 
-            <TextLeft className="flex flex-col gap-4 font-light">
+            <TextLeft className="flex flex-col gap-2 font-light sm:gap-4">
                 <p>{t('works.mirror')}</p>
             </TextLeft>
 
             <ProjectImageGallery images={closingImages}/>
 
-            <TextLeft className="flex flex-col gap-4 font-light">
+            <TextLeft className="flex flex-col gap-2 font-light sm:gap-4">
                 <p>{t('works.fridges')}</p>
             </TextLeft>
 
             <ImageFull src={image10} alt="Ряд детских игрушек и молоток"/>
 
-            <TextLeft className="flex flex-col gap-4 font-light">
+            <TextLeft className="flex flex-col gap-2 font-light sm:gap-4">
                 <p>{t('works.hammer_1')}</p>
                 <p>{t('works.hammer_2')}</p>
             </TextLeft>

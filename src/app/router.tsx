@@ -28,13 +28,22 @@ import {WindowsComPage} from "../pages/projects/exhibitions/WindowsComPage.tsx";
 import {SignalsPage} from "../pages/projects/exhibitions/SignalsPage.tsx";
 import {BordersTerritoriesPage} from "../pages/projects/exhibitions/BordersTerritoriesPage.tsx";
 import {TruckBoyPage} from "../pages/projects/exhibitions/TruckBoyPage.tsx";
+import {LanguageLayout, LanguageRedirect} from "../components/layout/LanguageLayout.tsx";
 
 export const router = createBrowserRouter([
     {
-        element: <PageLayout />,
+        path: '/',
+        element: <LanguageRedirect/>,
+    },
+    {
+        path: '/:language',
+        element: <LanguageLayout/>,
         children: [
             {
-                path: '/',
+                element: <PageLayout />,
+                children: [
+            {
+                index: true,
                 element: <MainPage />,
                 handle: {
                     header: {
@@ -45,7 +54,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/cv',
+                path: 'cv',
                 element: <CvPage />,
                 handle: {
                     header: {
@@ -56,7 +65,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects',
+                path: 'projects',
                 element: <ProjectsPage />,
                 handle: {
                     header: {
@@ -67,7 +76,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/statement',
+                path: 'statement',
                 element: <StatementPage />,
                 handle: {
                     header: {
@@ -78,7 +87,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/music',
+                path: 'music',
                 element: <MusicPage />,
                 handle: {
                     header: {
@@ -89,7 +98,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/collaborations',
+                path: 'collaborations',
                 element: <CollaborationsPage />,
                 handle: {
                     header: {
@@ -100,7 +109,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/contacts',
+                path: 'contacts',
                 element: <ContactsPage />,
                 handle: {
                     header: {
@@ -111,7 +120,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/graffiti',
+                path: 'projects/graffiti',
                 element: <GraffitiPage />,
                 handle: {
                     header: {
@@ -122,7 +131,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects',
+                path: 'projects/objects',
                 element: <ObjectsPage />,
                 handle: {
                     header: {
@@ -133,7 +142,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects/burn',
+                path: 'projects/objects/burn',
                 element: <BurnPage />,
                 handle: {
                     header: {
@@ -144,7 +153,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects/new_angels',
+                path: 'projects/objects/new_angels',
                 element: <NewAngelsPage />,
                 handle: {
                     header: {
@@ -155,7 +164,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects/undisclosed',
+                path: 'projects/objects/undisclosed',
                 element: <UndisclosedPage />,
                 handle: {
                     header: {
@@ -166,7 +175,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects/windows',
+                path: 'projects/objects/windows',
                 element: <WindowsPage />,
                 handle: {
                     header: {
@@ -177,7 +186,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects/tattoed_animals',
+                path: 'projects/objects/tattoed_animals',
                 element: <TattoedAnimalsPage />,
                 handle: {
                     header: {
@@ -188,7 +197,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/objects/dicho_pb',
+                path: 'projects/objects/dicho_pb',
                 element: <DichoPbPage />,
                 handle: {
                     header: {
@@ -199,7 +208,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/print/at_my_home',
+                path: 'projects/print/at_my_home',
                 element: <AtMyHomePage />,
                 handle: {
                     header: {
@@ -210,7 +219,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/theatre/fish',
+                path: 'projects/theatre/fish',
                 element: <FishPage />,
                 handle: {
                     header: {
@@ -221,7 +230,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/theatre/indigestion_of_reality',
+                path: 'projects/theatre/indigestion_of_reality',
                 element: <IndigestionOfRealityPage />,
                 handle: {
                     header: {
@@ -232,7 +241,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/exhibitions',
+                path: 'projects/exhibitions',
                 element: <ExhibitionsPage />,
                 handle: {
                     header: {
@@ -243,7 +252,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/exhibitions/windows_com',
+                path: 'projects/exhibitions/windows_com',
                 element: <WindowsComPage />,
                 handle: {
                     header: {
@@ -254,7 +263,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/exhibitions/signals',
+                path: 'projects/exhibitions/signals',
                 element: <SignalsPage />,
                 handle: {
                     header: {
@@ -265,7 +274,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/exhibitions/borders_territories',
+                path: 'projects/exhibitions/borders_territories',
                 element: <BordersTerritoriesPage />,
                 handle: {
                     header: {
@@ -276,7 +285,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/exhibitions/truck_boy',
+                path: 'projects/exhibitions/truck_boy',
                 element: <TruckBoyPage />,
                 handle: {
                     header: {
@@ -287,7 +296,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/installations',
+                path: 'projects/installations',
                 element: <InstallationsPage />,
                 handle: {
                     header: {
@@ -298,7 +307,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/installations/sensitive_content',
+                path: 'projects/installations/sensitive_content',
                 element: <SensitiveContentPage />,
                 handle: {
                     header: {
@@ -309,7 +318,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/installations/l_63',
+                path: 'projects/installations/l_63',
                 element: <L63Page />,
                 handle: {
                     header: {
@@ -320,7 +329,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/theatre',
+                path: 'projects/theatre',
                 element: <TheatrePage />,
                 handle: {
                     header: {
@@ -331,7 +340,7 @@ export const router = createBrowserRouter([
                 } satisfies PageHandle,
             },
             {
-                path: '/projects/print',
+                path: 'projects/print',
                 element: <PrintPage />,
                 handle: {
                     header: {
@@ -341,6 +350,12 @@ export const router = createBrowserRouter([
                     },
                 } satisfies PageHandle,
             },
+                ],
+            },
         ],
+    },
+    {
+        path: '*',
+        element: <LanguageRedirect/>,
     },
 ])

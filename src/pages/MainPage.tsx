@@ -5,12 +5,12 @@ import backgroundImage from "../assets/images/main/background.png";
 import {useTranslation} from "react-i18next";
 
 const navigation = [
-    {labelKey: 'navigation.cv', to: '/cv'},
-    {labelKey: 'navigation.projects', to: '/projects'},
-    {labelKey: 'navigation.statement', to: '/statement'},
-    {labelKey: 'navigation.music', to: '/music'},
-    {labelKey: 'navigation.collaborations', to: '/collaborations'},
-    {labelKey: 'navigation.contacts', to: '/contacts'},
+    {labelKey: 'navigation.cv', to: 'cv'},
+    {labelKey: 'navigation.projects', to: 'projects'},
+    {labelKey: 'navigation.statement', to: 'statement'},
+    {labelKey: 'navigation.music', to: 'music'},
+    {labelKey: 'navigation.collaborations', to: 'collaborations'},
+    {labelKey: 'navigation.contacts', to: 'contacts'},
 ] as const
 
 export function MainPage() {

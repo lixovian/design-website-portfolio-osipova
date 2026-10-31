@@ -13,8 +13,10 @@ export function TheatrePage() {
             label: t('covers.indigestion_of_reality'),
             src: coverIndigestionOfReality,
             to: 'indigestion_of_reality',
+            width: 614,
+            height: 890,
         },
-        {label: t('covers.fish'), src: coverFish, to: 'fish'},
+        {label: t('covers.fish'), src: coverFish, to: 'fish', width: 614, height: 890},
     ];
 
     return (

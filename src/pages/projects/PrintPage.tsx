@@ -7,7 +7,7 @@ import coverAtMyHome from "../../assets/images/projects/print/cover_at_my_home.w
 export function PrintPage() {
     const {t} = useTranslation(['print', 'common']);
     const prints: LinkImageItem[] = [
-        {label: t('covers.at_my_home'), src: coverAtMyHome, to: 'at_my_home'},
+        {label: t('covers.at_my_home'), src: coverAtMyHome, to: 'at_my_home', width: 1320, height: 1196},
     ];
 
     return (

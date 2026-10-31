@@ -11,10 +11,10 @@ import coverSignals from "../../assets/images/projects/exhibitions/cover_signals
 export function ExhibitionsPage() {
     const {t} = useTranslation(['exhibitions', 'common']);
     const exhibitions: LinkImageItem[] = [
-        {label: t('covers.windows_com'), src: coverWindows, to: 'windows_com'},
-        {label: t('covers.truck_boy'), src: coverTruckBoy, to: 'truck_boy'},
-        {label: t('covers.borders_territories'), src: coverBordersTerritories, to: 'borders_territories'},
-        {label: t('covers.signals'), src: coverSignals, to: 'signals'},
+        {label: t('covers.windows_com'), src: coverWindows, to: 'windows_com', width: 614, height: 890},
+        {label: t('covers.truck_boy'), src: coverTruckBoy, to: 'truck_boy', width: 614, height: 890},
+        {label: t('covers.borders_territories'), src: coverBordersTerritories, to: 'borders_territories', width: 614, height: 890},
+        {label: t('covers.signals'), src: coverSignals, to: 'signals', width: 614, height: 896},
     ];
 
     return (

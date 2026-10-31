@@ -13,12 +13,12 @@ import coverNewAngels from "../../assets/images/projects/objects/cover_new_angel
 export function ObjectsPage() {
     const {t} = useTranslation(['objects', 'common']);
     const objects: LinkImageItem[] = [
-        {label: t('covers.windows_com'), src: coverWindows, to: 'windows'},
-        {label: t('covers.undisclosed'), src: coverUndisclosed, to: 'undisclosed'},
-        {label: t('covers.tattoed_animals'), src: coverTattoedAnimals, to: 'tattoed_animals'},
-        {label: t('covers.burn'), src: coverBurn, to: 'burn'},
-        {label: t('covers.dicho_pb'), src: coverDichoPb, to: 'dicho_pb'},
-        {label: t('covers.new_angels'), src: coverNewAngels, to: 'new_angels'},
+        {label: t('covers.windows_com'), src: coverWindows, to: 'windows', width: 614, height: 890},
+        {label: t('covers.undisclosed'), src: coverUndisclosed, to: 'undisclosed', width: 614, height: 890},
+        {label: t('covers.tattoed_animals'), src: coverTattoedAnimals, to: 'tattoed_animals', width: 614, height: 890},
+        {label: t('covers.burn'), src: coverBurn, to: 'burn', width: 614, height: 890},
+        {label: t('covers.dicho_pb'), src: coverDichoPb, to: 'dicho_pb', width: 614, height: 890},
+        {label: t('covers.new_angels'), src: coverNewAngels, to: 'new_angels', width: 614, height: 890},
     ];
 
     return (

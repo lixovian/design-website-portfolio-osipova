@@ -3,9 +3,11 @@ import type {LinkItem} from "./LinkButton.tsx";
 
 export interface LinkImageItem extends LinkItem {
     src: string
+    width: number
+    height: number
 }
 
-export function LinkImage({label, to, src, className}: LinkImageItem) {
+export function LinkImage({label, to, src, width, height, className}: LinkImageItem) {
     return (
         <Link
             className={`group flex w-full flex-col gap-1 ${className ?? ''}`}
@@ -14,6 +16,8 @@ export function LinkImage({label, to, src, className}: LinkImageItem) {
             <img
                 src={src}
                 alt={label}
+                width={width}
+                height={height}
                 className="h-auto w-full transition-all group-hover:brightness-110"
                 loading="lazy"
                 decoding="async"

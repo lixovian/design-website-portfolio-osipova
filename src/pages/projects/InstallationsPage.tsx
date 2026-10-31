@@ -8,8 +8,8 @@ import coverSensitiveContent from "../../assets/images/projects/installations/co
 export function InstallationsPage() {
     const {t} = useTranslation(['installations', 'common']);
     const installations: LinkImageItem[] = [
-        {label: t('covers.l_63'), src: coverL63, to: 'l_63'},
-        {label: t('covers.sensitive_content'), src: coverSensitiveContent, to: 'sensitive_content'},
+        {label: t('covers.l_63'), src: coverL63, to: 'l_63', width: 1320, height: 1196},
+        {label: t('covers.sensitive_content'), src: coverSensitiveContent, to: 'sensitive_content', width: 1320, height: 1196},
     ];
 
     return (

@@ -12,16 +12,22 @@ export function LinkImage({label, to, src, width, height, className}: LinkImageI
         <Link
             className={`group flex w-full flex-col gap-1 ${className ?? ''}`}
             to={to}
+            aria-label={label}
         >
-            <img
-                src={src}
-                alt={label}
-                width={width}
-                height={height}
-                className="h-auto w-full transition-all group-hover:brightness-110"
-                loading="lazy"
-                decoding="async"
-            />
+            <span
+                className="block w-full"
+                style={{aspectRatio: `${width} / ${height}`}}
+            >
+                <img
+                    src={src}
+                    alt=""
+                    width={width}
+                    height={height}
+                    className="block h-full w-full object-contain transition-all group-hover:brightness-110"
+                    loading="lazy"
+                    decoding="async"
+                />
+            </span>
 
             <p className="w-fit text-sm font-light transition-colors group-hover:text-accent">
                 {label}

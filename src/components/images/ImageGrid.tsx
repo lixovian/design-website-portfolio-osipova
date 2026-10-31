@@ -12,6 +12,7 @@ export function ImageGrid({images}: ImageGridProps) {
                     alt="Image"
                     className="h-auto w-full"
                     loading="lazy"
+                    decoding="async"
                 />
             ))}
         </div>

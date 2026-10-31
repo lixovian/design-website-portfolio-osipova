@@ -4,16 +4,16 @@ import {ImageFull} from "../../../components/images/ImageFull.tsx";
 import {ProjectImageGallery, type ProjectImageItem} from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
 import {TextLeft} from "../../../components/text/TextLeft.tsx";
-import image1 from "../../../assets/images/projects/exhibitions/signals/1_full.png";
-import image2 from "../../../assets/images/projects/exhibitions/signals/2_full.png";
-import image3 from "../../../assets/images/projects/exhibitions/signals/3_left.png";
-import image4 from "../../../assets/images/projects/exhibitions/signals/4_full.png";
-import image5 from "../../../assets/images/projects/exhibitions/signals/5_full.png";
-import image6 from "../../../assets/images/projects/exhibitions/signals/6_right.png";
-import image7 from "../../../assets/images/projects/exhibitions/signals/7_full.png";
-import image8 from "../../../assets/images/projects/exhibitions/signals/8_full.png";
-import image9 from "../../../assets/images/projects/exhibitions/signals/9_full.png";
-import image10 from "../../../assets/images/projects/exhibitions/signals/10_full.png";
+import image1 from "../../../assets/images/projects/exhibitions/signals/1_full.webp";
+import image2 from "../../../assets/images/projects/exhibitions/signals/2_full.webp";
+import image3 from "../../../assets/images/projects/exhibitions/signals/3_left.webp";
+import image4 from "../../../assets/images/projects/exhibitions/signals/4_full.webp";
+import image5 from "../../../assets/images/projects/exhibitions/signals/5_full.webp";
+import image6 from "../../../assets/images/projects/exhibitions/signals/6_right.webp";
+import image7 from "../../../assets/images/projects/exhibitions/signals/7_full.webp";
+import image8 from "../../../assets/images/projects/exhibitions/signals/8_full.webp";
+import image9 from "../../../assets/images/projects/exhibitions/signals/9_full.webp";
+import image10 from "../../../assets/images/projects/exhibitions/signals/10_full.webp";
 
 const openingImages: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Выставочное пространство с инсталляциями', layout: 'full'},

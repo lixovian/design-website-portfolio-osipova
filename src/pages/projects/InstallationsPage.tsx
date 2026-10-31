@@ -2,8 +2,8 @@ import {useTranslation} from "react-i18next";
 import {BackButton} from "../../components/buttons/BackButton.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
 import {LinkImageGrid} from "../../components/buttons/LinkImageGrid.tsx";
-import coverL63 from "../../assets/images/projects/installations/cover_l_63.png";
-import coverSensitiveContent from "../../assets/images/projects/installations/cover_sensitive_content.png";
+import coverL63 from "../../assets/images/projects/installations/cover_l_63.webp";
+import coverSensitiveContent from "../../assets/images/projects/installations/cover_sensitive_content.webp";
 
 export function InstallationsPage() {
     const {t} = useTranslation(['installations', 'common']);

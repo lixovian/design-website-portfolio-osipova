@@ -94,17 +94,17 @@ import ruTruckBoy from './locales/ru/projects/exhibitions/truck_boy.json'
 export const supportedLanguages = ['de', 'en', 'ru'] as const
 export type Language = (typeof supportedLanguages)[number]
 
-export function isSupportedLanguage(language: string | null): language is Language {
+export function isSupportedLanguage(
+    language: string | null,
+): language is Language {
     return supportedLanguages.includes(language as Language)
 }
 
-const pathLanguage = window.location.pathname.split('/').filter(Boolean)[0] ?? null
 const savedLanguage = localStorage.getItem('language')
-const initialLanguage = isSupportedLanguage(pathLanguage)
-    ? pathLanguage
-    : isSupportedLanguage(savedLanguage)
-        ? savedLanguage
-        : 'en'
+
+const initialLanguage: Language = isSupportedLanguage(savedLanguage)
+    ? savedLanguage
+    : 'en'
 
 void i18n
     .use(initReactI18next)
@@ -204,13 +204,17 @@ void i18n
                 truck_boy: ruTruckBoy,
             },
         },
+
         lng: initialLanguage,
         fallbackLng: 'en',
+        supportedLngs: [...supportedLanguages],
+        load: 'languageOnly',
         defaultNS: 'common',
-        supportedLngs: supportedLanguages,
+
         interpolation: {
             escapeValue: false,
         },
+
         react: {
             useSuspense: false,
         },
@@ -226,6 +230,5 @@ i18n.on('languageChanged', (language) => {
 })
 
 document.documentElement.lang = initialLanguage
-localStorage.setItem('language', initialLanguage)
 
 export default i18n

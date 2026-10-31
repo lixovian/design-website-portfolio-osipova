@@ -28,30 +28,22 @@ import {WindowsComPage} from "../pages/projects/exhibitions/WindowsComPage.tsx";
 import {SignalsPage} from "../pages/projects/exhibitions/SignalsPage.tsx";
 import {BordersTerritoriesPage} from "../pages/projects/exhibitions/BordersTerritoriesPage.tsx";
 import {TruckBoyPage} from "../pages/projects/exhibitions/TruckBoyPage.tsx";
-import {LanguageLayout, LanguageRedirect} from "../components/layout/LanguageLayout.tsx";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <LanguageRedirect/>,
-    },
-    {
-        path: '/:language',
-        element: <LanguageLayout/>,
+        element: <PageLayout />,
         children: [
-            {
-                element: <PageLayout />,
-                children: [
             {
                 index: true,
                 element: <MainPage />,
                 handle: {
-                    header: {
-                        namespace: 'main',
-                        titleKey: 'header.title',
-                        emoji: 'kiss',
-                    },
-                } satisfies PageHandle,
+                   header: {
+                       namespace: 'main',
+                       titleKey: 'header.title',
+                       emoji: 'kiss',
+                   },
+               } satisfies PageHandle,
             },
             {
                 path: 'cv',
@@ -75,6 +67,7 @@ export const router = createBrowserRouter([
                     },
                 } satisfies PageHandle,
             },
+
             {
                 path: 'statement',
                 element: <StatementPage />,
@@ -350,12 +343,6 @@ export const router = createBrowserRouter([
                     },
                 } satisfies PageHandle,
             },
-                ],
-            },
         ],
-    },
-    {
-        path: '*',
-        element: <LanguageRedirect/>,
     },
 ])

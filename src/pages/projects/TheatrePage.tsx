@@ -3,8 +3,8 @@ import {BackButton} from "../../components/buttons/BackButton.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
 import {LinkImageGrid} from "../../components/buttons/LinkImageGrid.tsx";
 import {TextLeft} from "../../components/text/TextLeft.tsx";
-import coverIndigestionOfReality from "../../assets/images/projects/theatre/cover_indigestion_of_reality.png";
-import coverFish from "../../assets/images/projects/theatre/cover_fish.png";
+import coverIndigestionOfReality from "../../assets/images/projects/theatre/cover_indigestion_of_reality.webp";
+import coverFish from "../../assets/images/projects/theatre/cover_fish.webp";
 
 export function TheatrePage() {
     const {t} = useTranslation(['theatre', 'common']);

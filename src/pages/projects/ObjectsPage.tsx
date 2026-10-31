@@ -3,12 +3,12 @@ import {useTranslation} from "react-i18next";
 import {TextLeft} from "../../components/text/TextLeft.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
 import {LinkImageGrid} from "../../components/buttons/LinkImageGrid.tsx";
-import coverWindows from "../../assets/images/projects/objects/cover_windows_com.png";
-import coverUndisclosed from "../../assets/images/projects/objects/cover_undisclosed.png";
-import coverTattoedAnimals from "../../assets/images/projects/objects/cover_tattoed_animals.png";
-import coverBurn from "../../assets/images/projects/objects/cover_burn.png";
-import coverDichoPb from "../../assets/images/projects/objects/cover_dicho_pb.png";
-import coverNewAngels from "../../assets/images/projects/objects/cover_new_angels.png";
+import coverWindows from "../../assets/images/projects/objects/cover_windows_com.webp";
+import coverUndisclosed from "../../assets/images/projects/objects/cover_undisclosed.webp";
+import coverTattoedAnimals from "../../assets/images/projects/objects/cover_tattoed_animals.webp";
+import coverBurn from "../../assets/images/projects/objects/cover_burn.webp";
+import coverDichoPb from "../../assets/images/projects/objects/cover_dicho_pb.webp";
+import coverNewAngels from "../../assets/images/projects/objects/cover_new_angels.webp";
 
 export function ObjectsPage() {
     const {t} = useTranslation(['objects', 'common']);

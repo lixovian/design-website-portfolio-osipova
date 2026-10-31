@@ -5,9 +5,9 @@ import {
     type ProjectImageItem,
 } from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/print/at_my_home/1_full.png";
-import image2 from "../../../assets/images/projects/print/at_my_home/2_full.png";
-import image3 from "../../../assets/images/projects/print/at_my_home/3_full.png";
+import image1 from "../../../assets/images/projects/print/at_my_home/1_full.webp";
+import image2 from "../../../assets/images/projects/print/at_my_home/2_full.webp";
+import image3 from "../../../assets/images/projects/print/at_my_home/3_full.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Размытые фигуры людей на фоне берёзового леса', layout: 'full'},

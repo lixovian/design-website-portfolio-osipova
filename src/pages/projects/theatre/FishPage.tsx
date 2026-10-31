@@ -5,10 +5,10 @@ import {
     type ProjectImageItem,
 } from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/theatre/fish/1_full.png";
-import image2 from "../../../assets/images/projects/theatre/fish/2_full.png";
-import image3 from "../../../assets/images/projects/theatre/fish/3_right.png";
-import image4 from "../../../assets/images/projects/theatre/fish/4_full.png";
+import image1 from "../../../assets/images/projects/theatre/fish/1_full.webp";
+import image2 from "../../../assets/images/projects/theatre/fish/2_full.webp";
+import image3 from "../../../assets/images/projects/theatre/fish/3_right.webp";
+import image4 from "../../../assets/images/projects/theatre/fish/4_full.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Перформер в маске рыбы', layout: 'full'},

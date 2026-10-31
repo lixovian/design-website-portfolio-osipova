@@ -3,16 +3,16 @@ import {BackButton} from "../../../components/buttons/BackButton.tsx";
 import {ImageFull} from "../../../components/images/ImageFull.tsx";
 import {ProjectImageGallery, type ProjectImageItem} from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/installations/l_63/1_full.png";
-import image2 from "../../../assets/images/projects/installations/l_63/2_full.png";
-import image3 from "../../../assets/images/projects/installations/l_63/3_full.png";
-import image4 from "../../../assets/images/projects/installations/l_63/4_full.png";
-import image5 from "../../../assets/images/projects/installations/l_63/5_full.png";
-import image6 from "../../../assets/images/projects/installations/l_63/6_full.png";
-import image7 from "../../../assets/images/projects/installations/l_63/7_full.png";
-import image8 from "../../../assets/images/projects/installations/l_63/8_full.png";
-import image9Column1 from "../../../assets/images/projects/installations/l_63/9_column_1.png";
-import image9Column2 from "../../../assets/images/projects/installations/l_63/9_column_2.png";
+import image1 from "../../../assets/images/projects/installations/l_63/1_full.webp";
+import image2 from "../../../assets/images/projects/installations/l_63/2_full.webp";
+import image3 from "../../../assets/images/projects/installations/l_63/3_full.webp";
+import image4 from "../../../assets/images/projects/installations/l_63/4_full.webp";
+import image5 from "../../../assets/images/projects/installations/l_63/5_full.webp";
+import image6 from "../../../assets/images/projects/installations/l_63/6_full.webp";
+import image7 from "../../../assets/images/projects/installations/l_63/7_full.webp";
+import image8 from "../../../assets/images/projects/installations/l_63/8_full.webp";
+import image9Column1 from "../../../assets/images/projects/installations/l_63/9_column_1.webp";
+import image9Column2 from "../../../assets/images/projects/installations/l_63/9_column_2.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Латунные полосы в выставочном пространстве', layout: 'full'},

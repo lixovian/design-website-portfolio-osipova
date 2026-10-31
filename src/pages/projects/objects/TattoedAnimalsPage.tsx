@@ -5,20 +5,20 @@ import {
     type ProjectImageItem,
 } from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/objects/tattoed_animals/1_full.png";
-import image2 from "../../../assets/images/projects/objects/tattoed_animals/2_full.png";
-import image3 from "../../../assets/images/projects/objects/tattoed_animals/3_full.png";
-import image4 from "../../../assets/images/projects/objects/tattoed_animals/4_left.png";
-import image5 from "../../../assets/images/projects/objects/tattoed_animals/5_full.png";
-import image6 from "../../../assets/images/projects/objects/tattoed_animals/6_full.png";
-import image7 from "../../../assets/images/projects/objects/tattoed_animals/7_right.png";
-import image8 from "../../../assets/images/projects/objects/tattoed_animals/8_full.png";
-import image9 from "../../../assets/images/projects/objects/tattoed_animals/9_left.png";
-import image10 from "../../../assets/images/projects/objects/tattoed_animals/10_full.png";
-import image11 from "../../../assets/images/projects/objects/tattoed_animals/11_full.png";
-import image12 from "../../../assets/images/projects/objects/tattoed_animals/12_full.png";
-import image13 from "../../../assets/images/projects/objects/tattoed_animals/13_left.png";
-import image14 from "../../../assets/images/projects/objects/tattoed_animals/14_full.png";
+import image1 from "../../../assets/images/projects/objects/tattoed_animals/1_full.webp";
+import image2 from "../../../assets/images/projects/objects/tattoed_animals/2_full.webp";
+import image3 from "../../../assets/images/projects/objects/tattoed_animals/3_full.webp";
+import image4 from "../../../assets/images/projects/objects/tattoed_animals/4_left.webp";
+import image5 from "../../../assets/images/projects/objects/tattoed_animals/5_full.webp";
+import image6 from "../../../assets/images/projects/objects/tattoed_animals/6_full.webp";
+import image7 from "../../../assets/images/projects/objects/tattoed_animals/7_right.webp";
+import image8 from "../../../assets/images/projects/objects/tattoed_animals/8_full.webp";
+import image9 from "../../../assets/images/projects/objects/tattoed_animals/9_left.webp";
+import image10 from "../../../assets/images/projects/objects/tattoed_animals/10_full.webp";
+import image11 from "../../../assets/images/projects/objects/tattoed_animals/11_full.webp";
+import image12 from "../../../assets/images/projects/objects/tattoed_animals/12_full.webp";
+import image13 from "../../../assets/images/projects/objects/tattoed_animals/13_left.webp";
+import image14 from "../../../assets/images/projects/objects/tattoed_animals/14_full.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Фарфоровые животные с орнаментами', layout: 'full'},

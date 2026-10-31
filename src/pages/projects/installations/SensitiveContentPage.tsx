@@ -3,12 +3,12 @@ import {BackButton} from "../../../components/buttons/BackButton.tsx";
 import {ImageFull} from "../../../components/images/ImageFull.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
 import {TextLeft} from "../../../components/text/TextLeft.tsx";
-import image1 from "../../../assets/images/projects/installations/sensitive_content/1_full.png";
-import image2 from "../../../assets/images/projects/installations/sensitive_content/2_full.png";
-import image3 from "../../../assets/images/projects/installations/sensitive_content/3_full.png";
-import image4 from "../../../assets/images/projects/installations/sensitive_content/4_full.png";
-import image5 from "../../../assets/images/projects/installations/sensitive_content/5_full.png";
-import image6 from "../../../assets/images/projects/installations/sensitive_content/6_full.png";
+import image1 from "../../../assets/images/projects/installations/sensitive_content/1_full.webp";
+import image2 from "../../../assets/images/projects/installations/sensitive_content/2_full.webp";
+import image3 from "../../../assets/images/projects/installations/sensitive_content/3_full.webp";
+import image4 from "../../../assets/images/projects/installations/sensitive_content/4_full.webp";
+import image5 from "../../../assets/images/projects/installations/sensitive_content/5_full.webp";
+import image6 from "../../../assets/images/projects/installations/sensitive_content/6_full.webp";
 
 export function SensitiveContentPage() {
     const {t} = useTranslation(['sensitive_content', 'common'])

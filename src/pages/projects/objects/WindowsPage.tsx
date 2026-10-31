@@ -5,15 +5,15 @@ import {
     type ProjectImageItem,
 } from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/objects/windows/1_full.png";
-import image2 from "../../../assets/images/projects/objects/windows/2_full.png";
-import image3 from "../../../assets/images/projects/objects/windows/3_left.png";
-import image4 from "../../../assets/images/projects/objects/windows/4_full.png";
-import image5 from "../../../assets/images/projects/objects/windows/5_full.png";
-import image6 from "../../../assets/images/projects/objects/windows/6_full.png";
-import image7 from "../../../assets/images/projects/objects/windows/7_full.png";
-import image8 from "../../../assets/images/projects/objects/windows/8_full.png";
-import image9 from "../../../assets/images/projects/objects/windows/9_full.png";
+import image1 from "../../../assets/images/projects/objects/windows/1_full.webp";
+import image2 from "../../../assets/images/projects/objects/windows/2_full.webp";
+import image3 from "../../../assets/images/projects/objects/windows/3_left.webp";
+import image4 from "../../../assets/images/projects/objects/windows/4_full.webp";
+import image5 from "../../../assets/images/projects/objects/windows/5_full.webp";
+import image6 from "../../../assets/images/projects/objects/windows/6_full.webp";
+import image7 from "../../../assets/images/projects/objects/windows/7_full.webp";
+import image8 from "../../../assets/images/projects/objects/windows/8_full.webp";
+import image9 from "../../../assets/images/projects/objects/windows/9_full.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Кованая оконная решётка с пиксельным орнаментом', layout: 'full'},

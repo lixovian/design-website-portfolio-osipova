@@ -5,12 +5,12 @@ import {
     type ProjectImageItem,
 } from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/objects/burn/1_full.png";
-import image2 from "../../../assets/images/projects/objects/burn/2_full.png";
-import image3 from "../../../assets/images/projects/objects/burn/3_full.png";
-import image4 from "../../../assets/images/projects/objects/burn/4_left.png";
-import image5 from "../../../assets/images/projects/objects/burn/5_full.png";
-import image6 from "../../../assets/images/projects/objects/burn/6_right.png";
+import image1 from "../../../assets/images/projects/objects/burn/1_full.webp";
+import image2 from "../../../assets/images/projects/objects/burn/2_full.webp";
+import image3 from "../../../assets/images/projects/objects/burn/3_full.webp";
+import image4 from "../../../assets/images/projects/objects/burn/4_left.webp";
+import image5 from "../../../assets/images/projects/objects/burn/5_full.webp";
+import image6 from "../../../assets/images/projects/objects/burn/6_right.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Обожжённая деревянная стена', layout: 'full'},

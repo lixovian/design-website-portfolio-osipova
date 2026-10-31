@@ -4,15 +4,15 @@ import {ImageFull} from "../../../components/images/ImageFull.tsx";
 import {ImageLeft} from "../../../components/images/ImageLeft.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
 import {TextLeft} from "../../../components/text/TextLeft.tsx";
-import image1 from "../../../assets/images/projects/objects/new_angels/1_full.png";
-import image2 from "../../../assets/images/projects/objects/new_angels/2_full.png";
-import image3 from "../../../assets/images/projects/objects/new_angels/3_full.png";
-import image4 from "../../../assets/images/projects/objects/new_angels/4_full.png";
-import image5 from "../../../assets/images/projects/objects/new_angels/5_left.png";
-import image6 from "../../../assets/images/projects/objects/new_angels/6_full.png";
-import image7 from "../../../assets/images/projects/objects/new_angels/7_full.png";
-import image8 from "../../../assets/images/projects/objects/new_angels/8_full.png";
-import image9 from "../../../assets/images/projects/objects/new_angels/9_full.png";
+import image1 from "../../../assets/images/projects/objects/new_angels/1_full.webp";
+import image2 from "../../../assets/images/projects/objects/new_angels/2_full.webp";
+import image3 from "../../../assets/images/projects/objects/new_angels/3_full.webp";
+import image4 from "../../../assets/images/projects/objects/new_angels/4_full.webp";
+import image5 from "../../../assets/images/projects/objects/new_angels/5_left.webp";
+import image6 from "../../../assets/images/projects/objects/new_angels/6_full.webp";
+import image7 from "../../../assets/images/projects/objects/new_angels/7_full.webp";
+import image8 from "../../../assets/images/projects/objects/new_angels/8_full.webp";
+import image9 from "../../../assets/images/projects/objects/new_angels/9_full.webp";
 
 export function NewAngelsPage() {
     const {t} = useTranslation(['new_angels', 'common'])

@@ -1,7 +1,7 @@
 import {LanguageSwitch} from "../components/buttons/LanguageSwitch.tsx";
 import {LinkList} from "../components/buttons/LinkList.tsx";
 import type {LinkItem} from "../components/buttons/LinkButton.tsx";
-import backgroundImage from "../assets/images/main/background.png";
+import backgroundImage from "../assets/images/main/background.webp";
 import {useTranslation} from "react-i18next";
 
 const navigation = [

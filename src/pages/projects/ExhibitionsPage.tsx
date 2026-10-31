@@ -3,10 +3,10 @@ import {BackButton} from "../../components/buttons/BackButton.tsx";
 import type {LinkImageItem} from "../../components/buttons/LinkImage.tsx";
 import {LinkImageGrid} from "../../components/buttons/LinkImageGrid.tsx";
 import {TextLeft} from "../../components/text/TextLeft.tsx";
-import coverWindows from "../../assets/images/projects/exhibitions/cover_windows_com.png";
-import coverTruckBoy from "../../assets/images/projects/exhibitions/cover_truck_boy.png";
-import coverBordersTerritories from "../../assets/images/projects/exhibitions/cover_borders_territories.png";
-import coverSignals from "../../assets/images/projects/exhibitions/cover_signals.png";
+import coverWindows from "../../assets/images/projects/exhibitions/cover_windows_com.webp";
+import coverTruckBoy from "../../assets/images/projects/exhibitions/cover_truck_boy.webp";
+import coverBordersTerritories from "../../assets/images/projects/exhibitions/cover_borders_territories.webp";
+import coverSignals from "../../assets/images/projects/exhibitions/cover_signals.webp";
 
 export function ExhibitionsPage() {
     const {t} = useTranslation(['exhibitions', 'common']);

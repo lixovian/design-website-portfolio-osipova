@@ -5,14 +5,14 @@ import {
     type ProjectImageItem,
 } from "../../../components/images/ProjectImageGallery.tsx";
 import {TextColumns, type TextColumnItem} from "../../../components/text/TextColumns.tsx";
-import image1 from "../../../assets/images/projects/objects/undisclosed/1_full.png";
-import image2 from "../../../assets/images/projects/objects/undisclosed/2_full.png";
-import image3 from "../../../assets/images/projects/objects/undisclosed/3_full.png";
-import image4 from "../../../assets/images/projects/objects/undisclosed/4_full.png";
-import image5 from "../../../assets/images/projects/objects/undisclosed/5_full.png";
-import image6 from "../../../assets/images/projects/objects/undisclosed/6_full.png";
-import image7 from "../../../assets/images/projects/objects/undisclosed/7_full.png";
-import image8 from "../../../assets/images/projects/objects/undisclosed/8_full.png";
+import image1 from "../../../assets/images/projects/objects/undisclosed/1_full.webp";
+import image2 from "../../../assets/images/projects/objects/undisclosed/2_full.webp";
+import image3 from "../../../assets/images/projects/objects/undisclosed/3_full.webp";
+import image4 from "../../../assets/images/projects/objects/undisclosed/4_full.webp";
+import image5 from "../../../assets/images/projects/objects/undisclosed/5_full.webp";
+import image6 from "../../../assets/images/projects/objects/undisclosed/6_full.webp";
+import image7 from "../../../assets/images/projects/objects/undisclosed/7_full.webp";
+import image8 from "../../../assets/images/projects/objects/undisclosed/8_full.webp";
 
 const images: readonly ProjectImageItem[] = [
     {src: image1, alt: 'Две бетонные книги', layout: 'full'},

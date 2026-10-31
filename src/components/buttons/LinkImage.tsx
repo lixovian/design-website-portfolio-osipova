@@ -16,6 +16,7 @@ export function LinkImage({label, to, src, className}: LinkImageItem) {
                 alt={label}
                 className="h-auto w-full transition-all group-hover:brightness-110"
                 loading="lazy"
+                decoding="async"
             />
 
             <p className="w-fit text-sm font-light transition-colors group-hover:text-accent">

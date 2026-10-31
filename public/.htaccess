@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Let the server return existing files and directories normally.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# React Router handles all other paths in the browser.
+RewriteRule ^ index.html [L]
